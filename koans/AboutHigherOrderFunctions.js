@@ -34,7 +34,7 @@ describe("About Higher Order Functions", function () {
       /* initial */ 0
     );
     
-    expect(reduction).toBe([1, 3, 6]);
+    expect(reduction).toBe(6);
     expect(numbers).toEqual([1, 2, 3]);
   });
   //didnt pass
